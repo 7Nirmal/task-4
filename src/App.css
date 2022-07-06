@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  gap: 1rem ;
+  justify-items: center;
+  background-image: linear-gradient(to left top, #0066fe, #7b88ff, #b0aeff, #dad5ff, #ffffff);
+}
+
+.student-container{
+  border: 2px solid black;
+  margin:10px;
+  border-radius: 5px;
+  padding:20px;
+  width: 400px;
+  background-image: linear-gradient(to right top, #00c5fe, #24b7e6, #34aacf, #3e9cb9, #458ea4);}
+.student-image{
+  height:125px;
+  width:125px;
+  object-fit: cover;
+  border-radius: 50%;
+  float:left
+}
+.student-content{
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+justify-content: space-between;
+}
+.student-form{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+}
+
+.teacher-form{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+}
+
+
+.teacher-container{
+  border: 2px solid black;
+  margin:10px;
+  border-radius: 5px;
+  padding:20px;
+  width: 400px;
+  background-image: linear-gradient(to right top, #051937, #004978, #0080a0, #00b89b, #12eb6e);}
